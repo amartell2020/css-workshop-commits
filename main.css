@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-image: url("https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/watermelon-facts.png");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template: 200px 200px / 300px 300px;
+  grid-gap: 2%;
+}
+
+.gallery div {
+  background-image: url("https://www.whataboutwatermelon.com/wp-content/uploads/2018/05/cube-shape-watermelon.jpg");
+  background-size: cover;
+}
+
+p {
+  width: 25%;
+}
