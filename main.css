@@ -24,3 +24,7 @@ h1 {
 p {
   width: 25%;
 }
+
+section {
+  text-align: left;
+}
